@@ -1,0 +1,84 @@
+// Last updated 7/21/2010
+/L20"Smali" Nocase Line Comment = # String Chars = '" File Extensions = SMALI Escape Char = \
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Open Brace Strings = "{" "(" "[" 
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = ".annotation" ".field" ".method"
+/Close Fold Strings = ".end annotation" ".end field" ".end method"
+/Indent Strings = "{" ".method"
+/Unindent Strings = "}" ".end method"
+/Delimiters = "	$(), +.:;=>{}~
+/C1"Keywords 1" STYLE_KEYWORD Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 1
+.annotation .array-data
+.catch .catchall .class
+.end .enum .epilogue
+.field
+.implements .line
+.local .locals
+.method
+.packed-switch .parameter .prologue
+.registers .restart
+.source .sparse-switch .subannotation .super
+annotation array-data
+field
+local
+method
+packed-switch parameter
+sparse-switch subannotation
+/C2"Keywords 2" STYLE_KEYWORD Colors = 32768 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+abstract annotation
+bridge
+constructor
+declared-synchronized
+enum
+final
+interface
+native
+private protected public
+static strictfp synchronized synthetic system
+transient
+varargs volatile
+/C3"Instructions" Colors = 33023 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+add-double add-float add-int add-int/2addr add-int/lit8 add-int/lit16 add-int/lit32 add-int/lit64
+add-long add-long/2addr aget aget-boolean aget-byte aget-char aget-object aget-short aget-wide and-int
+and-int/2addr and-long aput aput-boolean aput-byte aput-char aput-object aput-short aput-wide array-length
+check-cast cmpg-double cmpg-float cmpl-double cmpl-float cmp-long const const/16 const/4 const/high16v0 const-class const-string const-string-jumbo
+const-wide const-wide/16 const-wide/32 const-wide/high16
+div-double div-float div-int div-int/2addr div-long double-to-float double-to-int double-to-long
+fill-array-data filled-new-array filled-new-array-range float-to-double float-to-int float-to-long
+goto goto/16 goto/32
+if-eq if-eqz if-ge if-gez if-gt if-gtz if-le if-lez if-lt if-ltz if-ne if-nez iget iget-boolean iget-byte iget-char iget-object iget-short
+iget-wide instance-of int-to-byte int-to-char int-to-double int-to-float int-to-long int-to-short invoke-direct invoke-direct/range invoke-interface
+invoke-interface-range invoke-static invoke-static/range invoke-super invoke-super/range invoke-virtual invoke-virtual/range iput iput-boolean
+iput-byte iput-char iput-object iput-short iput-wide
+long-to-double long-to-float long-to-int
+monitor-enter monitor-exit move move/16 move/from16 move-exception move-object move-object/16 move-object/from16 move-result move-result-object
+move-result-wide move-wide move-wide/16 move-wide/from16 mul-double mul-float mul-int mul-int/2addr mul-long mul-long/2addr
+neg-double neg-float neg-int neg-long new-array new-instance nop not-int not-long
+or-int or-int/2addr or-long
+packed-switch
+rem-double rem-float rem-int rem-int/2addr rem-long return return-object return-void return-wide
+sget sget-boolean sget-byte sget-char sget-object sget-short sget-wide shl-int shl-int/2addr shl-long shr-int shr-int/2addr shr-long
+sparse-switch sput sput-boolean sput-byte sput-char sput-object sput-short sput-wide sub-double sub-float sub-int sub-int/2addr
+sub-long sub-long/2addr
+throw
+ushr-int ushr-int/2addr ushr-long
+xor-int xor-int/2addr xor-long
+/C4"Keywords 3" Colors = 16744448 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+true
+false
+null
+/C5"Keywords 4" Colors = 4210816 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+build
+runtime
+system
+/C6"Section 1" Colors = 16711808 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+** : ...
+/C7"Section 2" Colors = 4227200 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+** $ ...
+/C8"Delimiters" Colors = 16711680 Colors Back = 16777215 Colors Auto Back = 1 Font Style = 0
+=
+:

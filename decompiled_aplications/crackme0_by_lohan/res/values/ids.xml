@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="tv_reg_text">false</item>
+    <item type="id" name="btn_validate">false</item>
+    <item type="id" name="edt_serial">false</item>
+</resources>

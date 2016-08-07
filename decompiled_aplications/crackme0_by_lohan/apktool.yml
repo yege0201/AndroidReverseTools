@@ -1,0 +1,6 @@
+version: 1.3.2
+apkFileName: crackme0_by_lohan.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
